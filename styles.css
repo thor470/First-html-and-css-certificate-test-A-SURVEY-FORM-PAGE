@@ -7,7 +7,7 @@ body {
     ), url("https://img.freepik.com/free-vector/waffles-with-strawberry-ice-cream-background_53876-97603.jpg?t=st=1743817063~exp=1743820663~hmac=13d34e32348cd4ae925f1e19e053d8722a083b9b348188bb383989c18b517358&w=740");
   background-size: cover;
   color: #602E28;
-  font-size: 3vw;
+  font-size: 1.5rem;
   
 }
 fieldset {
@@ -37,20 +37,22 @@ h1, p {
   width: 100%;
   background-color: #F1E16F;
   color: #602E28;
-  height: 4vw;
+  height: 3rem;
 }
 label, p, input {
-    font-size: 2vw;
+    font-size: 1.5rem;
 
 }
 textarea {
-  font-size: 2vw;
+  font-size: 1.5rem;
 }
 .bio2, #dropdown, #dropdown2, textarea, fieldset {
   border-radius: 6px;
 }
-input[type="radio"], input[type="checkbox"] {
+.buttonstyle {
   margin: 0 0.5em 0 0;
+  vertical-align: 0.10rem;
+  
 }
 .boxlabel {
   display: inline-block;
@@ -62,8 +64,8 @@ input[type="submit"] {
   color: #602E28;
 }
 select {
-  height: 4vw;
-  font-size: 2vw;
+  height: 3rem;
+  font-size: 1.5rem;
   color: #602E28;
 }
 h1 {
@@ -74,7 +76,7 @@ h1 {
 }
 .bio2 {
   margin: 10px auto;
-  height: 3.5vw;
+  height: 2.5rem;
 }
 .textboxp {
   margin-bottom: 0;
