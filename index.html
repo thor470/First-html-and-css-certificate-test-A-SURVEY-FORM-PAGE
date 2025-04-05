@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ice Cream Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Ice Cream Survey Form</h1>
+    <p id="description">You scream, I scream, we all scream, for ice cream</p>
+    <fieldset>
+      <div>
+      <form id="survey-form">
+<!-- start of basic info -->
+        <label for="name" id="name-label" class="bio">Name <input type="text" name="name" id="name" required placeholder="Enter your name" class="stretch2 bio2 blockinput"></label>
+        <label for="email" id="email-label" class="bio">Email <input type="email" name="email" id="email" required placeholder="Enter your email" class="stretch2 bio2 blockinput"></label>
+        <label for="number" id="number-label" class="bio">Daily ice cream consumption (in kilos, optional) <input type="number" id="number" name="number" min="1" max="1000" placeholder="Daily kilos of ice cream" class="stretch2 bio2 blockinput"></label>
+        
+<!-- end of basic info, start of dropdown -->
+
+        <p>Which kind of ice cream consumer are you?</p>
+        <select id="dropdown" class="stretch blockinput" required>
+          <option value="">Pick your type</option>
+          <option value="binge-eater-stuffer">Binge Eater / Stuffer</option>
+          <option value="licker">Licker</option>
+          <option value="biter">Biter</option>
+         </select>
+        
+
+<!-- end of dropdown, start of radio buttons -->
+
+        <p>Would you recommend devouring ice cream to a friend?</p>
+        <div class="inputlinebreak">
+          <input type="radio" id="definitely" checked name="recommendation" value="definitely" class="buttonstyle">
+          <label for="definitely" class="boxlabel">Definitely</label></div>
+        <div class="inputlinebreak">
+          <input type="radio" id="maybe" name="recommendation" value="maybe" class="buttonstyle">
+          <label for="maybe" class="boxlabel">Maybe</label></div>
+        <div class="inputlinebreak">
+          <input type="radio" id="unsure" name="recommendation" value="unsure" class="buttonstyle">
+          <label for="unsure" class="boxlabel">Not Sure</label></div>
+        
+
+<!-- end of radio buttons, start of second dropdown -->
+
+        <p>What is your favorite ice cream flavor? (unbiased)</p>
+        <select id="dropdown2" class="stretch blockinput" required>
+           <option value="">Choose one</option>
+          <option value="vanilla">Vanilla (boring)</option>
+          <option value="choco">Chocolate (boring)</option>
+          <option value="tiramisu">Tiramisu (too much)</option>
+          <option value="yoghurt">Yoghurt (now we're talking)</option>
+          <option value="cherry">Cherry (it's ok I guess)</option>
+          <option value="neapolitan">Neapolitan (schizo)</option>
+        </select>
+       
+
+<!-- end of dropdown2, start of checkboxes -->
+
+        <p>Which kinds of ice cream flavors would you like to see in the future?</p>
+        <div class="inputlinebreak"><input type="checkbox" id="wood" value="wood" class="buttonstyle"><label for="wood" class="boxlabel">Wood</label></div>
+        <div class="inputlinebreak"><input type="checkbox" id="moon-dust" value="moon-dust" class="buttonstyle"><label for="moon-dust" class="boxlabel">Moon Dust</label></div>
+        <div class="inputlinebreak"><input type="checkbox" id="glue" value="glue" class="buttonstyle"><label for="glue" class="boxlabel">Glue</label></div>
+        <div class="inputlinebreak"><input type="checkbox" id="cocaine" value="cocaine" class="buttonstyle"><label for="cocaine" class="boxlabel">Cocaine</label></div>
+        <div class="inputlinebreak"><input type="checkbox" id="rock" value="rock" class="buttonstyle"><label for="rock" class="boxlabel">Rock</label></div>
+        <div class="inputlinebreak"><input type="checkbox" id="fire" value="fire" class="buttonstyle"><label for="fire" class="boxlabel">Fire</label></div>
+        <div class="inputlinebreak"><input type="checkbox" id="lightning" value="lightning" class="buttonstyle"><label for="lightning" class="boxlabel">Lightning</label></div>
+        <div class="inputlinebreak"><input type="checkbox" id="black-hole" value="black-hole" class="buttonstyle"><label for="black-hole" class="boxlabel">Black Hole</label></div>
+
+<!-- end of checkboxes, start of textbox -->
+
+        <p class="textboxp">Any spicy experiences with ice cream? Do share!</p>
+        <textarea rows="5" placeholder="Share your experiences here..." class="stretch2 blockinput"></textarea>
+
+        <input type="submit" id="submit" value="Submit">
+      </form>
+      </div>
+    </fieldset>
+  </body>
+</html>
