@@ -45,6 +45,7 @@ label, p, input {
 }
 textarea {
   font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
 .bio2, #dropdown, #dropdown2, textarea, fieldset {
   border-radius: 6px;
