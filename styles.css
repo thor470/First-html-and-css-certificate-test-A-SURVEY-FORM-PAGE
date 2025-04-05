@@ -28,7 +28,7 @@ h1, p {
 }
 .bio {
   text-align: center;
-  
+  margin-top: 2rem;
 }
 .blockinput, label {
   display: block;
@@ -73,6 +73,7 @@ h1 {
 }
 #description {
   margin-bottom: 40px;
+  margin-top: 0.8rem;
 }
 .bio2 {
   margin: 10px auto;
@@ -87,4 +88,11 @@ h1 {
   color: #602E28;
   padding-right: 3px;
   padding-left: 3px;
+}
+p {
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+label:first-of-type {
+  margin-top: 0;
 }
